@@ -70,6 +70,11 @@
     odin # Odinlang
     ols # Odin lsp
     gopls
+    goose
+    gnumake42 # make command
+    sqlite
+    templ # Go html templating tool
+    gccgo # gcc for golang
   ];
   services.kanata = {
     enable = true;
