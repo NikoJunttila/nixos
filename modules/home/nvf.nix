@@ -58,6 +58,24 @@
           desc = "File browser toggle";
         }
         {
+          key = "<leader>x";
+          mode = ["n"];
+          action = "<cmd>bd<cr>";
+          desc = "close buffer";
+        }
+        {
+          key = "<Tab>";
+          mode = ["n"];
+          action = "<cmd>bnext<cr>";
+          desc = "next buffer";
+        }
+        {
+          key = "<S-Tab>";
+          mode = ["n"];
+          action = "<cmd>bprev<cr>";
+          desc = "previous buffer";
+        }
+        {
           key = "<C-h>";
           mode = ["i"];
           action = "<Left>";
