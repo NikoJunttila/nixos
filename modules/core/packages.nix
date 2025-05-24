@@ -75,6 +75,7 @@
     sqlite
     templ # Go html templating tool
     gccgo # gcc for golang
+    sqlc # golang code generator for sql queries
   ];
   services.kanata = {
     enable = true;

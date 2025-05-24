@@ -52,7 +52,7 @@
           desc = "Search files by contents";
         }
         {
-          key = "<leader>ee";
+          key = "<C-e>";
           mode = ["n"];
           action = "<cmd>Neotree toggle<cr>";
           desc = "File browser toggle";
